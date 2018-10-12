@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 require "iamport/version"
 require "httparty"
 
 module Iamport
-  IAMPORT_HOST = "https://api.iamport.kr".freeze
+  IAMPORT_HOST = "https://api.iamport.kr"
 
   class Config
     attr_accessor :api_key
