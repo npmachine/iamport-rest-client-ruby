@@ -114,6 +114,13 @@ Iamport.create_subscribe_customer("your_customer_1234", {
  "response"=>nil}
 ```
 
+## certification API
+휴대폰 본인인증 연동 API
+
+```ruby
+Iamport.certification("IMP_UID")
+```
+
 ## Installation
 
 Add this line to your application's Gemfile:
